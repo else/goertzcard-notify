@@ -1,0 +1,15 @@
+---
+config: {}
+accounts:
+- owner: manfred
+  credentials:
+    username: abc@example.com
+    password: yolo
+  notifier:
+    type: pushover
+    user: abc
+    token: xyz
+  cards:
+  - ean: 1333333333337
+    minimumAmount: 10
+    notify: pushover
